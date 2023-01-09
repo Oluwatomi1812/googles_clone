@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(53, 54, 56);
+    font-size: 15px;
+}
+body{
+    background-color: white;
+    font-family:sans-serif;
+}
+
+#nav{
+    border-bottom: 2px solid rgb(246,246,246);
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type="text"]{
+    width: 340px;
+    border: 1px solid transparent;
+}
+.search{
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(230,230,231);
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search:hover{
+    box-shadow: 5px 5px 5px rgb(230,230,231), -1px -5px 5px rgb(230,230,231);
+}
+#settings{
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+}
+#settings:hover{
+    background-color: rgb(230,230,231);
+}
+#settings .account_info{
+   visibility: hidden;
+   box-sizing: content-box;
+   padding: 5px;
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+   position: absolute;
+   z-index: 1;
+    right: 0px;
+    top: 25px;
+}
+#settings:hover .account_info{
+    visibility: visible;
+}
+.account{
+    border-radius: 20px;
+}
+.abc{
+    padding: 0px 5px;
+   font-size: 15px;
+}
+.def{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 0px;
+}
+.right_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+}
+.left_nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+}
+.grid-top{
+    display: flex;
+    gap: 40px;
+}
+.messi_grid{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.pic-grid-container{
+    display: grid;
+    grid-template-columns: 235px 235px 235px 110px 110px;
+    grid-template-rows: 150px 150px;
+    gap: 10px;
+    background-image: linear-gradient(white,  rgba(214, 249, 232, 0.738));
+}
+#grid1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#grid2{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    
+}
+#grid3{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+#grid4{
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+#grid5{
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+#grid6{
+    grid-column-start: 5;
+    grid-row-start: 1;
+}
+#grid7{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+}
+.green{
+    background-color: rgb(214,249,232);
+    color: rgb(125,175,154);
+    box-sizing: content-box;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+#green{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+.three-dots{
+    display: flex;
+    align-items:baseline;
+}
+#mid-page{
+    margin: 10px 110px;
+    display: flex;
+    justify-content: space-around;
+}
+#accordion summary {
+    list-style: none;
+    cursor: pointer;
+}
+#accordion {
+    border-bottom: 1px solid rgb(242,242,244);
+    padding: 5px 0;
+}
+summary{
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    width: 30%;
+    border-left: 1px solid rgb(213, 212, 219);
+    padding: 30px;
+    display: flex;flex-direction: column;
+    gap: 15px;
+}
+button{
+    background-color: white;
+    width: auto;
+    padding: 5px 10px;
+    border: 1px solid rgb(218,217,223);
+    border-radius: 20px;
+}
+.icon-align{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.info-container{
+    background-color:  rgb(214,249,232);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.mirror-site{
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+}
+.th,.tr{
+    border-bottom: 5px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+.arrange{
+    display: flex;
+    flex-direction: row;
+}
+.arrow{
+    transform:rotate(180deg) ;
+}
+a{
+    color: rgb(75,66,189);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#search-grid_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px 15px;
+}
+.search-grid{
+    background-color: rgb(241,243,244);
+    border: 1px rgb(241,243,244) solid;
+    border-radius: 20px;
+    color: black;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.messi-pages{
+    margin: 20px 0;
+}
+th{
+    font-size: 40px;
+}
+
+footer{
+    background-color: rgb(242,242,242);
+    height: 15vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.top-footer{
+    border-bottom: 1px solid rgb(221,222,226);
+    padding-left: 25px;
+    height: 8vh;
+
+}
+#normal-link{
+    color: black;
+}
+.bottom-links{
+    padding-left: 25px;
+}
+.blue-links{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(26, 13, 171);
+}
+.story-grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.story-grid{
+    border-left: 3px solid rgb(242,242,244);
+    border-bottom: 3px solid rgb(242,242,244);
+    
+}
+.story{
+    display: flex;
+}
+.page-info-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.date{
+    color: grey;
+    font-size: 12px;
+}
+#video-container{
+   border-bottom: 1px solid rgb(242,242,244);
+   padding: 10px 0px;
+   display: flex;
+}
+.video{
+    width: 130px;
+    height: 70px;
+    border-radius: 5px;
+}
+.video-time{
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    border-radius: 5px;
+    width: 25px;
+    padding: 0 5px;
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+    font-size: 12px;
+}
+.arrange-playbutton{
+    position: relative;
+    right: 80px;
+    bottom: 17px;
+    z-index: 1;
+    opacity: 0.8;
+    width: 35px;
+    height: 35px;
+}
+.arrange-icon{
+    position: relative;
+    right: 70px;
+    bottom: 45px;
+    z-index: 1;
+    padding-top: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.667);
+}
+.dropdown-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.google-table{
+    margin: auto;
+}

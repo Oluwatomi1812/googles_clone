@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     color: rgb(53, 54, 56);
-    font-size: 15px;
+    font-size: 17px;
 }
 body{
     background-color: white;
@@ -144,7 +144,7 @@ input[type="text"]{
 }
 .three-dots{
     display: flex;
-    align-items:baseline;
+    align-items:center
 }
 #mid-page{
     margin: 10px 110px;
@@ -167,7 +167,8 @@ summary{
     width: 30%;
     border-left: 1px solid rgb(213, 212, 219);
     padding: 30px;
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
     gap: 15px;
 }
 button{
@@ -201,9 +202,17 @@ button{
     display: flex;
     justify-content: space-between;
 }
+.arrange-socmedia{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
 .arrange{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+}
+.pics{
+    border-radius: 10px;
 }
 .arrow{
     transform:rotate(180deg) ;
@@ -265,16 +274,24 @@ footer{
 }
 .story-grid-container{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 1px auto;
     grid-template-rows: auto auto;
+    
 }
 .story-grid{
-    border-left: 3px solid rgb(242,242,244);
-    border-bottom: 3px solid rgb(242,242,244);
-    
+    border-bottom: 1px solid rgb(224, 224, 225);
+    margin: 15px;
 }
 .story{
     display: flex;
+}
+.left-borderline{
+    border-left: 1px solid rgb(224, 224, 225);
+    margin-top: 12px;
+
+}
+.left-borderline2{
+    border-left: 1px solid rgb(224, 224, 225);
 }
 .page-info-grid{
     display: grid;

@@ -8,7 +8,9 @@ body{
     background-color: white;
     font-family:sans-serif;
 }
-
+@media (min-width:400px){
+    
+}
 #nav{
     border-bottom: 2px solid rgb(246,246,246);
     height: 25vh;
@@ -173,11 +175,19 @@ summary{
 }
 button{
     background-color: white;
-    width: auto;
     padding: 5px 10px;
     border: 1px solid rgb(218,217,223);
     border-radius: 20px;
 }
+#button{
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+    border: 1px solid rgb(218,217,223);
+    border-radius: 20px;
+}
+.ddimg:
 .icon-align{
     display: flex;
     align-items: center;
@@ -351,4 +361,16 @@ footer{
 }
 .google-table{
     margin: auto;
+}
+.align-dropdown{
+    display: flex;
+}
+.align{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+#button{
+
 }

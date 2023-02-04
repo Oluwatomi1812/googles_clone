@@ -144,7 +144,7 @@ input[type="text"]{
 }
 .three-dots{
     display: flex;
-    align-items:center
+    align-items: center;
 }
 #mid-page{
     margin: 10px 110px;
@@ -247,20 +247,23 @@ a:hover{
 th{
     font-size: 40px;
 }
-
 footer{
     background-color: rgb(242,242,242);
-    height: 15vh;
+    height: 16vh;
+}
+.footer{
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     flex-direction: column;
 }
 .top-footer{
-    border-bottom: 1px solid rgb(221,222,226);
-    padding-left: 25px;
     height: 8vh;
-
+    padding-left: 150px;
 }
+.bottom-footer{
+    padding-left: 125px;
+}
+
 #normal-link{
     color: black;
 }

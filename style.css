@@ -8,9 +8,6 @@ body{
     background-color: white;
     font-family:sans-serif;
 }
-@media (min-width:400px){
-    
-}
 #nav{
     border-bottom: 2px solid rgb(246,246,246);
     height: 25vh;
@@ -179,19 +176,36 @@ button{
     border: 1px solid rgb(218,217,223);
     border-radius: 20px;
 }
-#button{
-    background-color: white;
-    width: 300px;
+#button1{
+    background-color: rgb(241,243,244);
+    width: 45%;
     margin: auto;
     padding: 5px 10px;
-    border: 1px solid rgb(218,217,223);
+    border-radius: 20px;
+    position: relative;
+    bottom: 30px;
+}
+#button2{
+    background-color: rgb(241,243,244);
+    width: 100%;
+    margin: auto;
+    padding: 5px 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+}
+#button3{
+    background-color: rgb(241,243,244);
+    width: 45%;
+    margin: 10px auto;
+    padding: 5px 10px;
     border-radius: 20px;
 }
-.ddimg:
 .icon-align{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
 }
 .info-container{
     background-color:  rgb(214,249,232);
@@ -208,9 +222,11 @@ button{
     display: flex;
 }
 .th,.tr{
-    border-bottom: 5px solid grey;
+    border-bottom: 2px solid grey;
     display: flex;
     justify-content: space-between;
+    text-align: left;
+    padding-right: 40px;
 }
 .arrange-socmedia{
     display: flex;
@@ -223,6 +239,7 @@ button{
 }
 .pics{
     border-radius: 10px;
+    margin: 1px;
 }
 .arrow{
     transform:rotate(180deg) ;
